@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"name": "Heureux",
+		"quantity": 10,
+		"price": 0.076,
+		"img": "./assets/img/products/happy.png"
+	},
+	{
+		"id": 2,
+		"name": "Souriant",
+		"quantity": 7,
+		"price": 0.05,
+		"img": "./assets/img/products/smile.png"
+	},
+	{
+		"id": 3,
+		"name": "Idée",
+		"quantity": 3,
+		"price": 0.1,
+		"img": "./assets/img/products/idea.png"
+	},
+	{
+		"id": 4,
+		"name": "Question",
+		"quantity": 5,
+		"price": 0.095,
+		"img": "./assets/img/products/question.png"
+	},
+	{
+		"id": 5,
+		"name": "Triste",
+		"quantity": 6,
+		"price": 0.052,
+		"img": "./assets/img/products/sad.png"
+	},
+	{
+		"id": 6,
+		"name": "Hello",
+		"quantity": 2,
+		"price": 0.154,
+		"img": "./assets/img/products/hello.png"
+	},
+	{
+		"id": 7,
+		"name": "Choqué",
+		"quantity": 10,
+		"price": 0.061,
+		"img": "./assets/img/products/shocked.png"
+	},
+	{
+		"id": 8,
+		"name": "Fier",
+		"quantity": 4,
+		"price": 0.12,
+		"img": "./assets/img/products/proud.png"
+	},
+	{
+		"id": 9,
+		"name": "Effrayé",
+		"quantity": 8,
+		"price": 0.059,
+		"img": "./assets/img/products/scared.png"
+	},
+	{
+		"id": 10,
+		"name": "Faché",
+		"quantity": 9,
+		"price": 0.089,
+		"img": "./assets/img/products/angry.png"
+	}
+]

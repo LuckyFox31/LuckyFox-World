@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./variables.css";
+
+/* Componants */
+@import "./components/header.css";
+@import "./components/home.css";
+@import "./components/shop.css";
+@import "./components/footer.css";
+@import "./components/cart.css";

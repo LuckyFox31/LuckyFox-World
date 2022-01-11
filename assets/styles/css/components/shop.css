@@ -1,0 +1,183 @@
+#shop {
+	margin-top: 20px;
+	padding: 0 var(--container-padding);
+}
+
+#shop h2 {
+	color: var(--primary-light);
+	font-weight: var(--bold);
+}
+
+#shop h2 span {
+	color: var(--primary-dark);
+}
+
+#shop #products-container {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#shop #products-container article {
+	position: relative;
+	width: calc(100% / 2.1);
+	border: var(--border-size) solid var(--unselected-light);
+	box-shadow: 0px 6px 0px 0px var(--unselected-dark);
+	border-radius: calc(var(--border-radius) * 2);
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#shop #products-container article:hover {
+	border: var(--border-size) solid var(--primary-light);
+	box-shadow: 0px 6px 0px 0px var(--primary-light);
+}
+
+#shop #products-container article header {
+	padding: 15px 5px;
+	background-image: var(--product-background);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-bottom: var(--border-size) solid var(--unselected-light);
+}
+
+#shop #products-container article:hover header {
+	border-bottom: var(--border-size) solid var(--primary-light);
+}
+
+#shop #products-container article header img {
+	width: 100%;
+}
+
+#shop #products-container article .content {
+	padding: 10px;
+}
+
+#shop #products-container article .content .product-id {
+	color: var(--primary-dark);
+	font-weight: var(--semi-bold);
+	text-align: center;
+}
+
+#shop #products-container article .content h3 {
+	color: var(--primary-light);
+	font-weight: var(--semi-bold);
+	text-align: center;
+}
+
+#shop #products-container article .content .stock {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--dark);
+	font-weight: var(--medium);
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#shop #products-container article .content .out-of-stock {
+	color: var(--red);
+	font-weight: var(--semi-bold);
+	font-size: 0.9em;
+}
+
+#shop #products-container article .content .stock span {
+	display: block;
+	height: 13px;
+	width: 13px;
+	background-image: var(--clock-icon);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-right: 5px;
+}
+
+#shop #products-container article .content hr {
+	color: var(--gray);
+}
+
+#shop #products-container article .content .content-button {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#shop #products-container article .content .content-button h4 {
+	display: flex;
+	align-items: center;
+	color: var(--dark);
+}
+
+#shop #products-container article .content .content-button h4 span {
+	display: block;
+	height: 30px;
+	width: 15px;
+	background-image: var(--ethereum-icon);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-right: 3px;
+}
+
+#shop #products-container article .content .content-button button {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	background-color: var(--primary-dark);
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	transition: background 0.1s;
+}
+
+#shop #products-container article .content .content-button button:hover {
+	background-color: var(--button-shadow);
+}
+
+#shop #products-container article .content .content-button button .shipping-cart-plus-icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	height: 60%;
+	width: 60%;
+	background-image: var(--shopping-cart-plus);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+@media screen and (min-width: 576px) {
+	#shop #products-container article {
+		width: calc(100% / 3.2);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#shop #products-container article {
+		width: calc(100% / 4.3);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#shop #products-container article {
+		width: calc(100% / 5.5);
+	}
+
+	#shop #products-container article .content .content-button h4 {
+		font-size: 1.2em;
+	}
+
+	#shop #products-container article .content .content-button h4 span {
+		display: block;
+		height: 30px;
+		width: 15px;
+		margin-right: 5px;
+	}
+}

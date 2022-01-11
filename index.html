@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LuckyFox World</title>
+		<link rel="stylesheet" href="./assets/styles/css/main.css" />
+		<script src="./assets/js/cart.js" defer></script>
+		<script src="./assets/js/stock.js" defer></script>
+	</head>
+	<body>
+		<header id="top-header">
+			<div class="left">
+				<img src="./assets/img/logos/logo-color.svg" alt="LuckyFox World Logo" />
+			</div>
+			<div class="right">
+				<button id="open-cart" data-product-number="0"><i id="shipping-cart-icon"></i></button>
+			</div>
+		</header>
+		<main>
+			<section id="home">
+				<header>
+					<h1>
+						Les <span>NFT</span> qui racontent une
+						<span>histoire</span>
+					</h1>
+					<div id="button-container">
+						<a href="#">Découvrir</a>
+					</div>
+				</header>
+				<figure>
+					<img src="./assets/img/island.png" alt="LuckyFox World Island" />
+				</figure>
+			</section>
+			<section id="shop">
+				<header>
+					<h2><span>NFT</span> en vente</h2>
+				</header>
+				<div id="products-container">
+					<!-- <article>
+						<header>
+							<img src="./assets/img/products/happy.png" alt="Happy LuckyFox World NFT" />
+						</header>
+						<div class="content">
+							<p class="product-id">#0376</p>
+							<h3>Heureux</h3>
+							<p class="stock-id"><span class="clock-icon"></span>10 Restant</p>
+							<hr />
+							<div class="content-button">
+								<h4><span class="ethereum-icon"></span>0.076</h4>
+								<button><i class="shipping-cart-plus-icon"></i></button>
+							</div>
+						</div>
+					</article> -->
+				</div>
+			</section>
+		</main>
+		<div id="cart">
+			<div id="cart-head">
+				<h2>Panier</h2>
+				<button id="close-cart"><i id="back-icon"></i></button>
+			</div>
+			<h3>Contenu du panier :</h3>
+			<div id="cart-content">
+				<div id="products">
+					<table>
+						<tbody>
+							<!-- <tr>
+								<td class="image">
+									<img src="./assets/img/products/happy.png" alt="Happy LuckyFox World NFT" />
+								</td>
+								<td class="title">
+									<p class="product-id">#0376</p>
+									<h4>Heureux</h4>
+								</td>
+								<td class="number">
+									<span>
+										<p>x</p>
+										<input type="number" />
+									</span>
+								</td>
+								<td class="delete">
+									<button><i class="trash-icon"></i></button>
+								</td>
+								<td class="price">
+									<p><span class="ethereum-icon"></span>0.076</p>
+								</td>
+							</tr> -->
+						</tbody>
+					</table>
+				</div>
+				<hr />
+				<div id="fees">
+					<div id="platform-fees">
+						<p class="title">Frais de la plateforme</p>
+						<p class="price"><span class="ethereum-icon"></span>0</p>
+					</div>
+					<div id="transaction-fees">
+						<p class="title">Frais de transaction</p>
+						<p class="price"><span class="ethereum-icon"></span>0</p>
+					</div>
+				</div>
+				<hr />
+				<div id="total">
+					<p class="title">Total à payer</p>
+					<p class="price"><span class="ethereum-icon"></span>0</p>
+				</div>
+			</div>
+			<div id="cart-buttons-container">
+				<a href="#" id="next">Continuer avec Metamask</a>
+				<a href="#cart" id="reset" onclick="resetAll()">Rénitialiser</a>
+			</div>
+		</div>
+		<footer>
+			<div class="left">
+				<img src="./assets/img/logos/logo-white.svg" alt="LuckyFox World Logo White" />
+				<p>Les NFT aux plus belles histoires</p>
+			</div>
+			<div class="right">
+				<h3>Liens :</h3>
+				<ul>
+					<li><a href="#">Politique de confidentialité</a></li>
+					<li><a href="#">Conditions générales d’utilisation</a></li>
+					<li><a href="#">Conditions générales de vente</a></li>
+					<li><a href="#">Contactez-nous</a></li>
+				</ul>
+			</div>
+			<p id="copyrights">&copy;Copyrights LuckyFox World 2022 - All Rights Reserved</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+#top-header {
+	z-index: 1000;
+	position: sticky;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 70px;
+	padding: 0 var(--container-padding);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--background);
+}
+
+#top-header .left img {
+	width: 50%;
+}
+
+#top-header .right button {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	background-color: var(--primary-dark);
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	transition: background 0.1s;
+}
+
+#top-header .right button:hover {
+	background-color: var(--button-shadow);
+}
+
+#top-header .right button::after {
+	content: attr(data-product-number);
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	height: 20px;
+	min-width: 20px;
+	padding: 3px;
+	border-radius: 50%;
+	color: white;
+	font-weight: var(--bold);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--primary-light);
+}
+
+#top-header .right button #shipping-cart-icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	height: 60%;
+	width: 60%;
+	background-image: var(--shopping-cart);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
