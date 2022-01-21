@@ -61,6 +61,7 @@
 	}
 
 	#home::after {
+		z-index: 10;
 		content: "";
 		display: block;
 		position: absolute;
@@ -72,6 +73,7 @@
 	}
 
 	#home header {
+		z-index: 100;
 		grid-column: span 4;
 		display: flex;
 		flex-direction: column;
@@ -79,8 +81,11 @@
 	}
 
 	#home figure {
+		z-index: 1;
 		grid-column: span 8;
+		justify-content: start;
 		height: calc(100vh - 70px);
+		transform: translateX(5%);
 	}
 
 	#home h1 {

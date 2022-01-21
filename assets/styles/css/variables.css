@@ -18,18 +18,18 @@
 	--bold: 700;
 
 	/* Icons */
-	--shopping-cart: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/shopping-cart-icon.svg?sanitize=true");
-	--shopping-cart-plus: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/shopping-cart-plus-icon.svg?sanitize=true");
-	--back-icon: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/arrow-icon.svg?sanitize=true");
-	--trash-icon: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/trash-icon.svg?sanitize=true");
-	--clock-icon: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/clock-icon.svg?sanitize=true");
-	--ethereum-icon: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/icons/ethereum-icon.svg?sanitize=true");
+	--shopping-cart: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/shopping-cart-icon.svg");
+	--shopping-cart-plus: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/shopping-cart-plus-icon.svg");
+	--back-icon: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/arrow-icon.svg");
+	--trash-icon: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/trash-icon.svg");
+	--clock-icon: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/clock-icon.svg");
+	--ethereum-icon: url("https://luckyfox-world.luckyfox.dev/assets/img/icons/ethereum-icon.svg");
 
 	/* Images */
-	--product-background: url("../../../img/background/product-background.png");
-	--ticket-background: url("https://github.com/LuckyFox31/LuckyFox-World/blob/main/assets/img/background/ticket.svg?sanitize=true");
-	--background-fox: url("../../../img/background/background-fox.png");
-	--footer-fox: url("../../../img/background/footer-fox.png");
+	--product-background: url("https://luckyfox-world.luckyfox.dev/assets/img/background/product-background.png");
+	--ticket-background: url("https://luckyfox-world.luckyfox.dev/assets/img/background/ticket.svg");
+	--background-fox: url("https://luckyfox-world.luckyfox.dev/assets/img/background/background-fox.png");
+	--footer-fox: url("https://luckyfox-world.luckyfox.dev/assets/img/background/footer-fox.png");
 
 	/* Other */
 	--container-padding: 5vw;
